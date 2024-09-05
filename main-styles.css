@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+#welcome {
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+#welcome h1 {
+    margin-bottom: 0px;
+}
+
+#welcome p {
+    margin-top: 0px;
+}
+
+#list-left {
+    display: inline-block;
+    position: fixed;
+    top: 62.4px;
+    left: 0px;
+    padding-left: 8px;
+    height: 88%;
+    width: 8.3%;
+    border-right: 2px solid black;
+    overflow-y: scroll;
+    z-index: 1;
+    background-color: gray;
+}
+
+#list-left ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    z-index: 1;
+
+}
+
+#list-left li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+#ui-right {
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    top: 60px;
+    padding-left: 5px;
+}
+
+#ui-right h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ui-right p{
+    position: relative;
+    margin-top: 0px;
+}
+
+#content-with-table {
+    width: 92.3%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    left: 8.1%;
+    top: 56px;
+    overflow: auto;
+    margin-bottom: 95px;
+    z-index: 0;
+}
+
+#content-with-table img {
+    width: 19.81%;
+}
+
+#content-with-table p {
+margin-top: 0px;
+}
+
+img[class*=miley-155] {
+    position: relative;
+    top: -155px;
+}
+
+img[class*=miley-201] {
+    position: relative;
+    top: -201px;
+}
+
+img[class*=miley-214] {
+    position: relative;
+    top: -214px;
+}
+
+img[class*=miley-266] {
+    position: relative;
+    top: -266px;
+}
+
+img[class*=miley-355] {
+    position: relative;
+    top: -355px;
+}
