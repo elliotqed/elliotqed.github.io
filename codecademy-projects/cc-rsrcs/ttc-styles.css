@@ -1,23 +1,49 @@
 * {
     font-family: Helvetica, serif;
-    font-size: 22px;
     color: seashell;
-    background-color: black;
     box-sizing: border-box;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
 }
 
 ul {
     background-color: transparent;
+    font-size: 22px;
 }
 
 h2 {
-    text-align: center;
+    margin-bottom: 0px;
 }
 
 h4 {
-    text-align: center;
+    margin-top: 10px;
 }
 
+h5 {
+    margin-bottom: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+figure {
+    margin: 20px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    top: 130px;
+    padding-left: 20px;
+}
 .header-nav {
     position: fixed;
     top: 0px;
@@ -66,4 +92,106 @@ h4 {
     left: 0px;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    background-color: black;
+}
+
+.tea-of-the-month {
+    min-width: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    align-content: center;
+}
+
+.div-totm {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
+}
+
+.images-totm {
+    height: 200px;
+    width: 300px;
+}
+
+.locations-img {
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+#second-img {
+    height: 500px;
+    width: 95%;
+}
+
+#locs-title {
+    background-color: transparent;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.locations {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 1550px;
+    left: 150px;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    width: 1600px;
+}
+
+.downtown {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    width: 300px;
+}
+
+.east-babyside {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    width: 300px;
+}
+
+.oakdale {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.contact-info {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    top: 130px;
+    align-items: center;
+    font-size: 22px;
+    height: 200px;
 }
